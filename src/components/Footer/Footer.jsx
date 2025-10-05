@@ -7,7 +7,7 @@ import facebook_icon from '../../assets/facebook_icon.png'
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className="footer">
       <div className="footer-icons">
         <img src={facebook_icon} alt="" />
         <img src={instagram_icon} alt="" />
@@ -28,7 +28,7 @@ const Footer = () => {
         <li>Corporate Information</li>
         <li>Contact Us</li>
       </ul>
-      <p className='copyright-text'>© 1997-2023 Netflix, Inc.</p>
+      <p className="copyright-text">© 1997-2023 Netflix, Inc.</p>
     </div>
   )
 }
